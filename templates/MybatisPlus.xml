@@ -1,0 +1,18 @@
+<templateSet group="MybatisPlus">
+  <template name="mupdate" value="@PutMapping(&quot;update$TEXT1$&quot;)&#10;@Transactional(rollbackFor = Exception.class)&#10;public Object update$TEXT1$(@RequestBody $TEXT2$){&#10;    return $END$;&#10;}" description="Controller update MybatisPlus plugin" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="madd" value="@PostMapping(&quot;/add$TEXT1$&quot;)&#10;@Transactional(rollbackFor = Exception.class)&#10;public Object add$TEXT1$(@Valid @RequestBody $TEXT2$, BindingResult bindingResult){&#10;    $END$&#10;}&#10;" description="Controller add MybatisPlus plugin" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="mdelete" value="@DeleteMapping(&quot;/del$TEXT1$/{id}&quot;)&#10;@Transactional(rollbackFor = Exception.class)&#10;public Object del$TEXT1$(@PathVariable String id){&#10;    return $END$;&#10;}&#10;" description="Controller delete MybatisPlus plugin" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="mpage" value="@GetMapping(&quot;page$TEXT1$&quot;)&#10;public Object getPage(Page page){&#10;    $END$&#10;}&#10;" description="Controller page MybatisPlus plugin" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

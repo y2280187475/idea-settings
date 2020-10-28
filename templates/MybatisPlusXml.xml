@@ -1,0 +1,22 @@
+<templateSet group="MybatisPlusXml">
+  <template name="mselect" value="&lt;select id=&quot;$var1$&quot; resultMap=&quot;$var2$&quot;&gt;&#10;        select * from $END$&#10;&lt;/select&gt;&#10;" description="Xml select MybatisPlus plugin" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="minsert" value="&lt;insert id=&quot;$var0$&quot; parameterType=&quot;$var1$&quot;&gt;&#10;    insert into $var2$($var3$) values($END$)&#10;&lt;/insert&gt;&#10;" description="Xml insert MybatisPlus plugin" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="mresultMap" value="&lt;resultMap id=&quot;$var1$&quot; type=&quot;$var2$&quot;&gt;&#10;     &lt;result column=&quot;$var3$&quot; property=&quot;$var4$&quot;/&gt;&#10;     &lt;collection property=&quot;$var5$&quot; ofType=&quot;$var6$&quot;&gt;&#10;         &lt;id column=&quot;$var7$&quot; property=&quot;$var8$&quot;/&gt;&#10;     &lt;/collection&gt;&#10; &lt;/resultMap&gt;&#10;" description="Xml resultMap MybatisPlus plugin" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="mupdate" value="&lt;update id=&quot;$var1$&quot; parameterType=&quot;$var2$&quot;&gt;&#10;     update $var3$ set $var4$&#10;     where $END$&#10; &lt;/update&gt;&#10;" description="Xml update MybatisPlus plugin" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="mdelete" value="&lt;delete id=&quot;$var1$&quot; parameterType=&quot;$var2$&quot;&gt;&#10;     delete from $var3$&#10;     where $END$&#10; &lt;/delete&gt;&#10;" description="Xml delete MybatisPlus plugin" toReformat="false" toShortenFQNames="false">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

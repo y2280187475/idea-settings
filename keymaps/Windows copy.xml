@@ -1,0 +1,6 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+</keymap>
