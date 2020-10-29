@@ -34,6 +34,10 @@
           <option name="url" value="http://61.164.87.62:8866" />
           <option name="userName" value="yangjianfeng" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/tinerue/myBCTest.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\IdeaProjecs" />
