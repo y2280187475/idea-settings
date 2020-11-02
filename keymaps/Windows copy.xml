@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="$ShowTranslationDialogAction" />
+  <action id="CodotaJavaScriptSearch" />
+  <action id="CodotaLeanSearchCrossRefAction" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="ctrl alt v" />
     <keyboard-shortcut first-keystroke="alt v" />
