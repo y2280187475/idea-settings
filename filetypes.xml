@@ -8,6 +8,7 @@
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="pri" type="YAML" />
     </extensionMap>
   </component>
