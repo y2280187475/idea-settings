@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="lotus" type="PLAIN_TEXT" />
       <mapping pattern="priv_sk" type="PLAIN_TEXT" />
       <mapping pattern="trustCa" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
